@@ -14,4 +14,4 @@ Y posteriormente instalar Chef con gem:
 
 	sudo gem install ohai chef
 
-![Resultado de instalar Chef]()
+![Resultado de instalar Chef](https://github.com/JPPorcel/CC-Ejercicios/blob/master/Tema%202/images/ej1.png?raw=true)
