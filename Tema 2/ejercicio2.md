@@ -41,4 +41,4 @@ Y ejecutamos:
 	sudo chef-solo -c chef/solo.rb
 
 
-![Resultado de ejecutar la receta](https://github.com/JPPorcel/CC-Ejercicios/blob/master/Tema%202/images/ej2.png?raw=true)
+![Resultado de ejecutar la receta](https://github.com/JPPorcel/CC-Ejercicios/blob/master/Tema%202/images/ej_2.png?raw=true)
