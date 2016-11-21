@@ -52,7 +52,13 @@ Nuestro fichero salt-stack (gOGL.sls) para provisionar con g++ y las librerías 
     libgl1-mesa-dev:
      pkg.installed
 
-Y ejecutamos estes estado con:
+Este fichero debe de estar en nuestra carpeta *~/lib/satl/states/*. La ruta al directorio de estados se especifica en nuestro fichero master con:
+
+	file_roots:
+  		base:
+    		- ~/lib/salt/states
+
+Y ejecutamos este estado con:
 
 	salt-ssh app state.apply gOGL --priv ~/key_ec2_aws.pem --roster-file ~/lib/salt/roster -c ~/lib/salt --force-color
 
